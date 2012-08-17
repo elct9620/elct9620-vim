@@ -91,3 +91,6 @@
 [submodule "bundle/vim-php-doc"]
 	path = bundle/vim-php-doc
 	url = git://github.com/vim-scripts/php.vim--Nicholson.git
+[submodule "bundle/snipmate-nodejs"]
+	path = bundle/snipmate-nodejs
+	url = git://github.com/jamescarr/snipmate-nodejs.git
