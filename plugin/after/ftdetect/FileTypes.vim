@@ -19,3 +19,6 @@ autocmd! BufNewFile,BufRead *.zsh-theme set filetype=zsh
 
 " Nginx Config
 autocmd! BufNewFile,BufRead nginx.conf set filetype=nginx
+
+" jQuery
+autocmd! BufNewFile,BufRead jquery.*.js set filetype=javascript syntax=jquery
