@@ -27,7 +27,7 @@ set showtabline=2
 set wildmode=longest,list
 set wildmenu
 set key=
-set synmaxcol=256
+set synmaxcol=512
 set viminfo=
 set ttyfast
 
