@@ -100,3 +100,6 @@
 [submodule "bundle/vim-ruby"]
 	path = bundle/vim-ruby
 	url = git://github.com/vim-ruby/vim-ruby.git
+[submodule "bundle/vim-processing"]
+	path = bundle/vim-processing
+	url = git://github.com/sophacles/vim-processing.git
