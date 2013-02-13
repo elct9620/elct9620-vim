@@ -103,3 +103,6 @@
 [submodule "bundle/vim-processing"]
 	path = bundle/vim-processing
 	url = git://github.com/sophacles/vim-processing.git
+[submodule "bundle/javascript-libraries-syntax.vim"]
+	path = bundle/javascript-libraries-syntax.vim
+	url = git://github.com/othree/javascript-libraries-syntax.vim.git
