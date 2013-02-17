@@ -20,5 +20,8 @@ map <C-A> ggVG
 "JSLint
 map <C-J> :JSLint<CR>
 
+"NeoComplCache
+let g:neocomplcache_enable_at_startup = 1
+
 "Copy to clipboard
 vmap <C-b> :w !pbcopy<CR>
