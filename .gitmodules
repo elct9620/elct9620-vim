@@ -33,10 +33,6 @@
 [submodule "bundle/nginx.vim"]
 	path = bundle/nginx.vim
 	url = git://github.com/vim-scripts/nginx.vim.git
-[submodule "bundle/snipmate.vim"]
-	path = bundle/snipmate.vim
-	url = git://github.com/kaochenlong/snipmate.vim.git
-	      ignore = untracked
 [submodule "bundle/supertab"]
 	path = bundle/supertab
 	url = git://github.com/ervandew/supertab.git
@@ -91,9 +87,6 @@
 [submodule "bundle/vim-php-doc"]
 	path = bundle/vim-php-doc
 	url = git://github.com/vim-scripts/php.vim--Nicholson.git
-[submodule "bundle/snipmate-nodejs"]
-	path = bundle/snipmate-nodejs
-	url = git://github.com/jamescarr/snipmate-nodejs.git
 [submodule "bundle/jquery.vim"]
 	path = bundle/jquery.vim
 	url = git://github.com/nono/jquery.vim.git
