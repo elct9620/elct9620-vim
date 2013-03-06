@@ -102,3 +102,6 @@
 [submodule "bundle/neocomplcache"]
 	path = bundle/neocomplcache
 	url = git://github.com/Shougo/neocomplcache.git
+[submodule "bundle/vim-gitgutter.git"]
+	path = bundle/vim-gitgutter.git
+	url = git://github.com/airblade/vim-gitgutter.git
