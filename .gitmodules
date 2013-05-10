@@ -108,3 +108,4 @@
 [submodule "bundle/phpcomplete.vim"]
 	path = bundle/phpcomplete.vim
 	url = git://github.com/shawncplus/phpcomplete.vim.git
+	      ignore = untracked
