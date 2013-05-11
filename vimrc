@@ -16,13 +16,14 @@
 set nocompatible
 filetype off
 
-set rtp+=bundle/vundle/
+set rtp+=$HOME/.vim/bundle/vundle/
 call vundle#rc()
 
 " let Vundle manage Vundle
 Bundle 'gmarik/vundle'
 
-source Vundle
+" Load Vundle load bundles
+source $HOME/.vim/Vundle
 
 filetype plugin indent on
 
