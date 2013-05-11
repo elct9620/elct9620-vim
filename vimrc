@@ -4,12 +4,27 @@
 " http://frost.tw
 " elct9620@frost.tw
 
-runtime bundle/vim-pathogen/autoload/pathogen.vim
+
+"runtime bundle/vim-pathogen/autoload/pathogen.vim
+"filetype off
+"call pathogen#incubate()
+"filetype plugin indent on
+"call pathogen#infect()
+"call pathogen#helptags()
+
+" Vundle
+set nocompatible
 filetype off
-call pathogen#incubate()
+
+set rtp+=~bundle/vundle/
+call vundle#rc()
+
+" let Vundle manage Vundle
+Bundle 'gmarik/vundle'
+
+source Vundle
+
 filetype plugin indent on
-call pathogen#infect()
-call pathogen#helptags()
 
 " hit enter to cancel searched highlight
 noremap <CR> :nohlsearch<CR>
