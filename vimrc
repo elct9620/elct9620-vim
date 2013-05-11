@@ -16,7 +16,7 @@
 set nocompatible
 filetype off
 
-set rtp+=~bundle/vundle/
+set rtp+=bundle/vundle/
 call vundle#rc()
 
 " let Vundle manage Vundle
