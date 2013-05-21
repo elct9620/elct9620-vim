@@ -41,3 +41,8 @@ let g:neocomplcache_enable_at_startup = 1
 
 "Copy to clipboard
 vmap <C-b> :w !pbcopy<CR>
+
+"VDebug
+"let g:vdebug_keymap['run'] = '<C-d>'
+" Map it via original method, vdebug method not work correctly
+map <C-d> :python debugger.run()<CR>
