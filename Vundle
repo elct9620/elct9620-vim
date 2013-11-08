@@ -1,5 +1,5 @@
 Bundle 'altercation/vim-colors-solarized.git'
-Bundle 'mattn/zencoding-vim.git'
+Bundle 'mattn/emmet-vim.git'
 Bundle 'tpope/vim-fugitive.git'
 Bundle 'vim-scripts/Align.git'
 Bundle 'kien/ctrlp.vim.git'
