@@ -44,6 +44,15 @@ let g:neocomplcache_force_overwrite_completefunc = 1
 "Copy to clipboard
 vmap <C-b> :w !pbcopy<CR>
 
+" Enable Syntax Checker
+let g:syntastic_check_on_open = 1
+let g:syntastic_error_symbol = '✗'
+let g:syntastic_warning_symbol = '⚠'
+let g:syntastic_auto_jump = 1
+let g:syntastic_auto_loc_list = 1
+
+let g:syntastic_php_phpcs_args = "--report=csv --tab-width=2 --standard=PSR2"
+
 "VDebug
 "let g:vdebug_keymap['run'] = '<C-d>'
 " Map it via original method, vdebug method not work correctly
