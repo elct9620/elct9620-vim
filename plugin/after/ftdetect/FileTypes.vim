@@ -7,6 +7,8 @@ autocmd! BufNewFile,BufRead *.scss set filetype=scss
 
 " eRuby
 autocmd! BufNewFile,BufRead *.erb set filetype=eruby.html
+autocmd! BufNewFile,BufRead *.coffee.erb set filetype=eruby.coffee
+autocmd! BufNewFile,BufRead *.js.erb set filetype=eruby.javascript
 
 " JSON
 autocmd! BufNewFile,BufRead *.json set filetype=javascript
