@@ -11,6 +11,10 @@ Requirements
 ---
 
 * ctags
+  * `brew install ctags`
+* Latest version VIM
+  * `brew install vim`
+  * `sudo mv /usr/bin/vim /usr/bin/vim.old` (you may want let `vim.old` like `vim73`)
 
 Install
 ---
@@ -21,13 +25,20 @@ Install
 4. Link vimrc file `ln -s .vim/vimrc .vimrc`
 5. Install vundle `cd .vim && ./update.sh`
 6. Install relative bundle `vim +BundleInstall +qall`
-7. Everything is find, free to use it
+7. Install [You Complete Me](https://github.com/Valloric/YouCompleteMe)
+  * `cd ~/.vim/bundle/YouCompleteMe`
+  * `./install.sh --clang-completer`
+8. Install golang relative package
+  * `go get github.com/bradfitz/goimports`
+  * `go get github.com/nsf/gocode`
+  * `go get code.google.com/p/rog-go/exp/cmd/godef`
+8. Everything is ready, free to use it
 
 Usage
 ---
 
 `F2` - Open NERDTree
 `F5` - Reload file
-`F6` - Open Taglist
+`F6` - Open Tagbar
 `F7` - Prveious Tab
 `F8` - Next Tab

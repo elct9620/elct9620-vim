@@ -37,9 +37,12 @@ map <C-A> ggVG
 map <C-J> :JSLint<CR>
 
 "NeoComplCache
-let g:neocomplcache_enable_at_startup = 1
+"let g:neocomplcache_enable_at_startup = 1
 " Force mskr neocomplcache as default
-let g:neocomplcache_force_overwrite_completefunc = 1
+"let g:neocomplcache_force_overwrite_completefunc = 1
+
+"YouCompleteMe
+let g:ycm_autoclose_preview_window_after_completion = 1
 
 "Copy to clipboard
 vmap <C-b> :w !pbcopy<CR>
