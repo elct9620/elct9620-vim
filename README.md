@@ -44,4 +44,4 @@ Usage
 * `F8` - Next Tab
 * `Tab` - Select Completion
 * `Shift` + `Tab` Prveious Completion
-* `Ctrl` + `j` Expend Sinp (via Ultisinp)
+* `Ctrl` + `j` Expand Sinp (via Ultisinp)
