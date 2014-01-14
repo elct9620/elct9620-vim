@@ -37,8 +37,11 @@ Install
 Usage
 ---
 
-`F2` - Open NERDTree
-`F5` - Reload file
-`F6` - Open Tagbar
-`F7` - Prveious Tab
-`F8` - Next Tab
+* `F2` - Open NERDTree
+* `F5` - Reload file
+* `F6` - Open Tagbar
+* `F7` - Prveious Tab
+* `F8` - Next Tab
+* `Tab` - Select Completion
+* `Shift` + `Tab` Prveious Completion
+* `Ctrl` + `j` Expend Sinp (via Ultisinp)
