@@ -24,3 +24,10 @@ autocmd! BufNewFile,BufRead nginx.conf set filetype=nginx
 
 " jQuery
 autocmd! BufNewFile,BufRead jquery.*.js set filetype=javascript syntax=jquery
+
+" JavaScript
+autocmd! FileType javascript setlocal expandtab shiftwidth=4 tabstop=4
+
+" PHP
+autocmd! FileType php setlocal expandtab shiftwidth=4 tabstop=4
+
