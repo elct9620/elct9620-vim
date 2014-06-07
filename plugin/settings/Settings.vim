@@ -18,7 +18,9 @@ set title
 set showmode
 set nobomb
 set laststatus=2
-set clipboard+=unnamed
+"if $TMUX == ''
+  set clipboard+=unnamed
+"endif
 set splitright
 set splitbelow
 set scrolloff=5

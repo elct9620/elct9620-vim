@@ -52,7 +52,7 @@ let g:syntastic_warning_symbol = '⚠'
 " let g:syntastic_auto_jump = 1
 let g:syntastic_auto_loc_list = 1
 
-let g:syntastic_php_phpcs_args = "--report=csv --tab-width=2 --standard=PSR2"
+let g:syntastic_php_phpcs_args = "--report=csv --standard=PSR2"
 
 let g:syntastic_mode_map = { 'mode': 'active',
                            \ 'active_filetypes': ['ruby', 'php'],
