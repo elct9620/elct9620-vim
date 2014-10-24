@@ -56,7 +56,7 @@ let g:syntastic_php_phpcs_args = "--report=csv --standard=PSR2"
 
 let g:syntastic_mode_map = { 'mode': 'active',
                            \ 'active_filetypes': ['ruby', 'php'],
-                           \ 'passive_filetypes': ['html'] }
+                           \ 'passive_filetypes': ['html', 'cjsx'] }
 
 "VDebug
 "let g:vdebug_keymap['run'] = '<C-d>'
