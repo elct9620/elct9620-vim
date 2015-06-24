@@ -1,7 +1,3 @@
-" ActionScript
-autocmd! BufNewFile,BufRead *.as set filetype=actionscript
-autocmd! BufNewFile,BufRead *.mxml set filetype=mxml
-
 " SCSS
 autocmd! BufNewFile,BufRead *.scss set filetype=scss
 
@@ -31,3 +27,5 @@ autocmd! FileType javascript setlocal expandtab shiftwidth=4 tabstop=4
 " PHP
 autocmd! FileType php setlocal expandtab shiftwidth=4 tabstop=4
 
+" Vundle
+autocmd! BufNewFile,BufRead Vundle set filetype=vim
