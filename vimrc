@@ -24,17 +24,19 @@ filetype plugin indent on
 
 " hit enter to cancel searched highlight
 noremap <CR> :nohlsearch<CR>
-"
+
 " select ALL
 map <C-A> ggVG
 
-" YouCompleteMe
-let g:ycm_autoclose_preview_window_after_completion = 1
-let g:ycm_global_ycm_extra_conf = '~/.vim/.ycm_extra_conf.py'
-let g:ycm_confirm_extra_conf = 0
+" Ruby
+let g:rubycomplete_buffer_loading = 1
 
-"Ultisnips
-let g:UltiSnipsExpandTrigger="<C-j>"
+" JSON
+let g:vim_json_syntax_conceal = 0
+
+" PIV
+let g:DisableAutoPHPFolding = 0
+let g:PIVAutoClose = 0
 
 " Copy to clipboard
 vmap <C-b> :w !pbcopy<CR>

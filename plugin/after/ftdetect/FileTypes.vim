@@ -27,5 +27,8 @@ autocmd! FileType javascript setlocal expandtab shiftwidth=4 tabstop=4
 " PHP
 autocmd! FileType php setlocal expandtab shiftwidth=4 tabstop=4
 
+" JSON
+autocmd! BufNewFile,BufRead *.json set filetype=json
+
 " Vundle
 autocmd! BufNewFile,BufRead Vundle set filetype=vim
