@@ -16,7 +16,7 @@ Plugin 'majutsushi/tagbar'
 Plugin 'SirVer/ultisnips'
 Plugin 'honza/vim-snippets'
 Plugin 'wakatime/vim-wakatime'
-"Plugin 'kien/ctrlp.vim.git'
+Plugin 'kien/ctrlp.vim.git'
 "Plugin 'ervandew/supertab.git'
 
 " CoffeeScript

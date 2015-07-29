@@ -1,3 +1,4 @@
+set spell
 set nocompatible
 set nostartofline
 set backspace=2
@@ -5,7 +6,7 @@ set history=1000
 set undolevels=100
 set ruler
 set autoread
-set wrap
+set nowrap
 set linebreak
 set nolist
 set hidden
