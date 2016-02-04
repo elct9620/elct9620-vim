@@ -20,8 +20,8 @@ Plugin 'kien/ctrlp.vim.git'
 "Plugin 'ervandew/supertab.git'
 
 " CoffeeScript
-Plugin 'kchmck/vim-coffee-script.git'
-Plugin 'mtscout6/vim-cjsx.git'
+" Plugin 'kchmck/vim-coffee-script.git'
+" Plugin 'mtscout6/vim-cjsx.git'
 
 " CSS
 Plugin 'gorodinskiy/vim-coloresque'
@@ -38,7 +38,7 @@ Plugin 'elzr/vim-json'
 Plugin 'pangloss/vim-javascript'
 
 " Markdown
-Plugin 'plasticboy/vim-markdown.git'
+" Plugin 'plasticboy/vim-markdown.git'
 
 " Ruby
 Plugin 'tpope/vim-rails.git'
@@ -50,8 +50,8 @@ Plugin 'vim-ruby/vim-ruby.git'
 "Plugin 'evidens/vim-twig.git'
 Plugin 'spf13/PIV'
 Plugin 'beyondwords/vim-twig'
-"Plugin 'StanAngeloff/php.vim'
-Plugin 'xwsoul/vim-zephir'
+" Plugin 'StanAngeloff/php.vim'
+" Plugin 'xwsoul/vim-zephir'
 
 " Golang
 Plugin 'fatih/vim-go'
@@ -61,8 +61,8 @@ Plugin 'othree/html5.vim'
 Plugin 'amirh/HTML-AutoCloseTag'
 
 " Rust
-Plugin 'rust-lang/rust.vim'
-Plugin 'cespare/vim-toml'
+" Plugin 'rust-lang/rust.vim'
+" Plugin 'cespare/vim-toml'
 
 " C++
 Plugin 'octol/vim-cpp-enhanced-highlight'
