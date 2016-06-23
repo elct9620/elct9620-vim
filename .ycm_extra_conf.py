@@ -61,12 +61,29 @@ flags = [
 'c++',
 # This path will only work on OS X, but extra paths that don't exist are not
 # harmful
+'/System/Library/Frameworks/Python.framework/Headers',
+'-isystem',
+'../llvm/include',
+'-isystem',
+'../llvm/tools/clang/include',
 '-I',
 '.',
-'-isystem',
-'/usr/include',
 '-I',
-'/usr/local/include',
+'./include',
+'-I',
+'./src',
+'-I',
+'./ClangCompleter',
+'-isystem',
+'./tests/gmock/gtest',
+'-isystem',
+'./tests/gmock/gtest/include',
+'-isystem',
+'./tests/gmock',
+'-isystem',
+'./tests/gmock/include',
+'-I',
+'/usr/local/include'
 ]
 
 

@@ -23,6 +23,12 @@ Plugin 'kien/ctrlp.vim.git'
 " Plugin 'kchmck/vim-coffee-script.git'
 " Plugin 'mtscout6/vim-cjsx.git'
 
+" TypeScript
+Plugin 'leafgarland/typescript-vim'
+
+" Elixir
+Plugin 'elixir-lang/vim-elixir'
+
 " CSS
 Plugin 'gorodinskiy/vim-coloresque'
 "Plugin 'ap/vim-css-color.git'
@@ -57,6 +63,7 @@ Plugin 'beyondwords/vim-twig'
 Plugin 'fatih/vim-go'
 
 " HTML
+Plugin 'mattn/emmet-vim'
 Plugin 'othree/html5.vim'
 Plugin 'amirh/HTML-AutoCloseTag'
 
@@ -66,3 +73,6 @@ Plugin 'amirh/HTML-AutoCloseTag'
 
 " C++
 Plugin 'octol/vim-cpp-enhanced-highlight'
+
+" Shell
+Plugin 'dag/vim-fish'
