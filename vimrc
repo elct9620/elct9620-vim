@@ -5,22 +5,26 @@
 " contact@frost.tw
 
 " Vundle
-set nocompatible
-filetype off
+" set nocompatible
+" filetype off
 
-set rtp+=$HOME/.vim/bundle/vundle/
-call vundle#rc()
+" Install vim-plug if we don't already have it
+if empty(glob("$HOME/.vim/autoload/plug.vim"))
+    " Ensure all needed directories exist  (Thanks @kapadiamush)
+    execute '!mkdir -p ~/.vim/plugged'
+    execute '!mkdir -p ~/.vim/autoload'
+    " Download the actual plugin manager
+    execute '!curl -fLo ~/.vim/autoload/plug.vim https://raw.github.com/junegunn/vim-plug/master/plug.vim'
+endif
 
-" let Vundle manage Vundle
-Bundle 'gmarik/vundle'
-
-" Load Vundle load bundles
-source $HOME/.vim/Vundle
+" Load Plug
+call plug#begin('~/.vim/plugged')
+source $HOME/.vim/Plug
+filetype plugin indent on
+call plug#end()
 
 " Setup Gocode
 " Plugin 'nsf/gocode', {'rtp': 'vim/'}
-
-filetype plugin indent on
 
 " hit enter to cancel searched highlight
 noremap <CR> :nohlsearch<CR>
