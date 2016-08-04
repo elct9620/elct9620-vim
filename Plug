@@ -17,6 +17,7 @@ Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
 Plug 'wakatime/vim-wakatime'
 Plug 'kien/ctrlp.vim'
+Plug 'sourcegraph/sourcegraph-vim'
 "Plug 'ervandew/supertab'
 
 " CoffeeScript

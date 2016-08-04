@@ -60,3 +60,6 @@ let g:syntastic_mode_map = { 'mode': 'active',
 
 " JavaScript Libraries
 let g:used_javascript_libs = "jquery,underscore,react,flux"
+
+" Sourcegraph
+let g:SOURCEGRAPH_AUTO = "false"
