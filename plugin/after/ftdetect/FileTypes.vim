@@ -33,5 +33,8 @@ autocmd! BufNewFile,BufRead *.json set filetype=json
 " Vundle
 autocmd! BufNewFile,BufRead Vundle set filetype=vim
 
+" Slim
+autocmd! BufNewFile,BufRead *.slim set filetype=slim
+
 " Plug
 autocmd! BufNewFile,BufRead Plug set filetype=vim

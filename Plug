@@ -68,6 +68,9 @@ Plug 'mattn/emmet-vim', { 'for': ['html'] }
 Plug 'othree/html5.vim', { 'for': ['html'] }
 Plug 'amirh/HTML-AutoCloseTag', { 'for': ['html'] }
 
+" Slim
+Plug 'slim-template/vim-slim', { 'for': ['slim'] }
+
 " Rust
 " Plug 'rust-lang/rust.vim'
 " Plug 'cespare/vim-toml'
