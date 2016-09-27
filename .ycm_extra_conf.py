@@ -71,6 +71,8 @@ flags = [
 '-I',
 './include',
 '-I',
+'../include',
+'-I',
 './src',
 '-I',
 './ClangCompleter',
@@ -83,7 +85,9 @@ flags = [
 '-isystem',
 './tests/gmock/include',
 '-I',
-'/usr/local/include'
+'/usr/local/include',
+'-I',
+os.getcwd() + '/include'
 ]
 
 

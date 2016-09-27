@@ -6,6 +6,10 @@ autocmd! BufNewFile,BufRead *.erb set filetype=eruby.html
 autocmd! BufNewFile,BufRead *.coffee.erb set filetype=eruby.coffee
 autocmd! BufNewFile,BufRead *.js.erb set filetype=eruby.javascript
 
+" Ruby
+autocmd! BufNewFile,BufRead Magicafile set filetype=ruby
+autocmd! BufNewFile,BufRead magicafile set filetype=ruby
+
 " JSON
 autocmd! BufNewFile,BufRead *.json set filetype=javascript
 
