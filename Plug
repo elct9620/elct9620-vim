@@ -2,7 +2,7 @@
 Plug 'altercation/vim-colors-solarized'
 
 " Helper
-Plug 'vim-scripts/Align'
+Plug 'junegunn/vim-easy-align'
 Plug 'Raimondi/delimitMate'
 Plug 'scrooloose/nerdtree'
 Plug 'jistr/vim-nerdtree-tabs'
