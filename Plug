@@ -20,10 +20,12 @@ Plug 'kien/ctrlp.vim'
 "Plug 'sourcegraph/sourcegraph-vim'
 "Plug 'ervandew/supertab'
 Plug 'vim-scripts/matchit.zip'
+"Plug 'Yggdroot/indentLine'
+Plug 'nathanaelkane/vim-indent-guides'
 
 " CoffeeScript
-" Plug 'kchmck/vim-coffee-script'
-" Plug 'mtscout6/vim-cjsx'
+Plug 'kchmck/vim-coffee-script', { 'for': 'coffee' }
+Plug 'mtscout6/vim-cjsx', { 'for': 'coffee' }
 
 " TypeScript
 Plug 'leafgarland/typescript-vim', { 'for': 'typescript' }
