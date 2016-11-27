@@ -8,7 +8,11 @@ function! s:SwitchBG()
   colorscheme solarized
 
   hi IndentGuidesOdd  ctermbg=NONE
-  if g:background == "dark" | hi IndentGuidesEven ctermbg=235 | else | hi IndentGuidesEven ctermbg=187 | endif
+  if g:background == "dark"
+    hi IndentGuidesEven ctermbg=235
+  else
+    hi IndentGuidesEven ctermbg=187
+  endif
 
   if exists(":IndentGuidesEnable")
     call indent_guides#enable()
