@@ -47,3 +47,7 @@ vmap <C-b> :w !pbcopy<CR>
 
 " JavaScript Libraries
 let g:used_javascript_libs = "jquery,underscore,react,flux"
+
+" C-H / C-[
+inoremap <BS> <NOP>
+inoremap <ESC> <NOP>

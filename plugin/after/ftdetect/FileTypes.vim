@@ -26,10 +26,11 @@ autocmd! BufNewFile,BufRead nginx.conf set filetype=nginx
 autocmd! BufNewFile,BufRead jquery.*.js set filetype=javascript syntax=jquery
 
 " JavaScript
-autocmd! FileType javascript setlocal expandtab shiftwidth=4 tabstop=4
+autocmd! FileType javascript setlocal expandtab shiftwidth=2 tabstop=4
 
 " PHP
 autocmd! FileType php setlocal expandtab shiftwidth=4 tabstop=4
+autocmd! FileType php imap <buffer> <C-H> <C-H>
 
 " JSON
 autocmd! BufNewFile,BufRead *.json set filetype=json
@@ -42,3 +43,4 @@ autocmd! BufNewFile,BufRead *.slim set filetype=slim
 
 " Plug
 autocmd! BufNewFile,BufRead Plug set filetype=vim
+
