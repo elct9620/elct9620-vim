@@ -10,8 +10,8 @@ Plug 'tpope/vim-surround'
 "Plug 'Lokaltog/powerline'
 Plug 'vim-airline/vim-airline'
 Plug 'airblade/vim-gitgutter'
-"Plug 'scrooloose/syntastic'
-Plug 'w0rp/ale'
+Plug 'scrooloose/syntastic'
+"Plug 'w0rp/ale'
 Plug 'Valloric/YouCompleteMe', { 'do': './install.py --gocode-completer --clang-completer'}
 Plug 'majutsushi/tagbar'
 Plug 'SirVer/ultisnips'
@@ -56,6 +56,7 @@ Plug 'vim-ruby/vim-ruby', { 'for': ['ruby'] }
 " PHP
 Plug 'spf13/PIV', { 'for': 'php' }
 Plug 'beyondwords/vim-twig', { 'for': 'twig' }
+Plug 'jwalton512/vim-blade', { 'for': 'blade' }
 
 " Golang
 Plug 'fatih/vim-go', { 'for': 'go' }
@@ -72,3 +73,7 @@ Plug 'slim-template/vim-slim', { 'for': ['slim'] }
 
 " C++
 Plug 'octol/vim-cpp-enhanced-highlight', { 'for': ['c', 'cpp'] }
+
+" Scala
+Plug 'derekwyatt/vim-sbt', { 'for': ['sbt'] }
+Plug 'derekwyatt/vim-scala', { 'for': ['scala'] }

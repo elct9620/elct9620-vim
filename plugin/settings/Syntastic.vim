@@ -10,6 +10,10 @@ let g:syntastic_warning_symbol = '⚠'
 " let g:syntastic_auto_jump = 1
 let g:syntastic_auto_loc_list = 1
 
+let g:syntastic_ruby_checkers = ['rubocop', 'mri', 'jruby']
+let g:syntastic_javascript_checkers=['eslint']
+let g:syntastic_javascript_eslint_exe='$(npm bin)/eslint'
+
 let g:syntastic_php_phpcs_args = "--report=csv --standard=PSR2"
 
 let g:syntastic_mode_map = { 'mode': 'active',

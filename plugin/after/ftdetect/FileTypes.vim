@@ -44,3 +44,6 @@ autocmd! BufNewFile,BufRead *.slim set filetype=slim
 " Plug
 autocmd! BufNewFile,BufRead Plug set filetype=vim
 
+" Scala
+autocmd! BufNewFile,BufRead *.scala set filetype=scala
+autocmd! BufNewFile,BufRead *.sbt set filetype=sbt
