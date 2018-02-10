@@ -68,6 +68,8 @@ set noerrorbells
 set t_vb=
 set tm=500
 
+set re=1
+
 set encoding=utf-8
 set fileencodings=ucs-bom,utf-8,big5,euc-jp,gbk,euc-kr,utf-bom,iso8859-1,euc-jp,utf-16le,latin1
 set fenc=utf-8 enc=utf-8 tenc=utf-8

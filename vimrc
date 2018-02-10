@@ -23,9 +23,6 @@ source $HOME/.vim/Plug
 filetype plugin indent on
 call plug#end()
 
-" Setup Gocode
-" Plugin 'nsf/gocode', {'rtp': 'vim/'}
-
 " hit enter to cancel searched highlight
 noremap <CR> :nohlsearch<CR>
 
