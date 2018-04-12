@@ -37,7 +37,7 @@ Plug 'othree/javascript-libraries-syntax.vim', { 'for': ['html', 'javascript'] }
 Plug 'mxw/vim-jsx', { 'for': ['javascript.jsx', 'typescript'] }
 Plug 'elzr/vim-json', { 'for': ['html', 'json', 'javascript'] }
 Plug 'pangloss/vim-javascript', { 'for': ['html', 'javascript'] }
-Plug 'posva/vim-vue', { 'for': ['html', 'javascript'] }
+Plug 'posva/vim-vue', { 'for': ['html', 'javascript', 'vue'] }
 
 " Ruby
 Plug 'tpope/vim-rbenv', { 'for': ['ruby'] }

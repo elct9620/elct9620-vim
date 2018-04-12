@@ -47,3 +47,6 @@ let g:used_javascript_libs = "jquery,underscore,react,flux"
 
 " C-H / C-[
 inoremap <BS> <NOP>
+
+" Wakatime
+let g:wakatime_PythonBinary = '/usr/bin/python2.7'
