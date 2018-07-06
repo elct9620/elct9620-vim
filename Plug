@@ -63,3 +63,6 @@ Plug 'slim-template/vim-slim', { 'for': ['slim'] }
 
 " C++
 Plug 'octol/vim-cpp-enhanced-highlight', { 'for': ['c', 'cpp'] }
+
+" DevOps
+Plug 'hashivim/vim-terraform', { 'for': ['terraform'] }
