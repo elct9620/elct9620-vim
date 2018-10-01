@@ -61,8 +61,14 @@ Plug 'vim-scripts/HTML-AutoCloseTag', { 'for': ['html'] }
 " Slim
 Plug 'slim-template/vim-slim', { 'for': ['slim'] }
 
+" Liquid
+Plug 'tpope/vim-liquid', { 'for': ['liquid'] }
+
 " C++
 Plug 'octol/vim-cpp-enhanced-highlight', { 'for': ['c', 'cpp'] }
 
 " DevOps
 Plug 'hashivim/vim-terraform', { 'for': ['terraform'] }
+
+" Yocto
+Plug 'kergoth/vim-bitbake', { 'for': ['bitbake'] }
