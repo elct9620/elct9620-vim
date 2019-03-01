@@ -8,7 +8,7 @@ Plug 'scrooloose/nerdtree'
 Plug 'vim-airline/vim-airline'
 Plug 'airblade/vim-gitgutter'
 Plug 'w0rp/ale'
-Plug 'Valloric/YouCompleteMe', { 'do': 'python3 ./install.py --gocode-completer --clang-completer'}
+Plug 'Valloric/YouCompleteMe', { 'do': 'python3 ./install.py --gocode-completer --clang-completer', 'commit': '8e33c3c6448db8ef9d35b6d12ef2c96474d49d26' }
 Plug 'majutsushi/tagbar'
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
@@ -51,7 +51,7 @@ Plug 'beyondwords/vim-twig', { 'for': 'twig' }
 Plug 'jwalton512/vim-blade', { 'for': 'blade' }
 
 " Golang
-Plug 'fatih/vim-go', { 'for': 'go' }
+Plug 'fatih/vim-go', { 'for': 'go', 'do': ':GoUpdateBinaries' }
 
 " HTML
 Plug 'mattn/emmet-vim', { 'for': ['html'] }
