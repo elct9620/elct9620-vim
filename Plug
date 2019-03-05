@@ -1,0 +1,74 @@
+" Color Scheme
+Plug 'altercation/vim-colors-solarized'
+
+" Helper
+Plug 'junegunn/vim-easy-align'
+Plug 'Raimondi/delimitMate'
+Plug 'scrooloose/nerdtree'
+Plug 'vim-airline/vim-airline'
+Plug 'airblade/vim-gitgutter'
+Plug 'w0rp/ale'
+Plug 'Valloric/YouCompleteMe', { 'do': 'python3 ./install.py --gocode-completer --clang-completer', 'commit': '8e33c3c6448db8ef9d35b6d12ef2c96474d49d26' }
+Plug 'majutsushi/tagbar'
+Plug 'SirVer/ultisnips'
+Plug 'honza/vim-snippets'
+Plug 'wakatime/vim-wakatime'
+Plug 'ctrlpvim/ctrlp.vim'
+Plug 'vim-scripts/matchit.zip'
+Plug 'nathanaelkane/vim-indent-guides'
+Plug 'editorconfig/editorconfig-vim'
+Plug 'christoomey/vim-tmux-navigator'
+Plug 'pbrisbin/vim-mkdir'
+
+" TypeScript
+Plug 'leafgarland/typescript-vim', { 'for': 'typescript' }
+
+" Elixir
+Plug 'elixir-lang/vim-elixir', { 'for': 'elixir' }
+
+" CSS
+Plug 'gorodinskiy/vim-coloresque'
+Plug 'cakebaker/scss-syntax.vim', { 'for': 'scss' }
+Plug 'hail2u/vim-css3-syntax'
+
+" JavaScript
+Plug 'jelera/vim-javascript-syntax', { 'for': ['html', 'javascript'] }
+Plug 'othree/javascript-libraries-syntax.vim', { 'for': ['html', 'javascript'] }
+Plug 'mxw/vim-jsx', { 'for': ['javascript.jsx', 'typescript'] }
+Plug 'elzr/vim-json', { 'for': ['html', 'json', 'javascript'] }
+Plug 'pangloss/vim-javascript', { 'for': ['html', 'javascript'] }
+Plug 'posva/vim-vue', { 'for': ['html', 'javascript', 'vue'] }
+
+" Ruby
+Plug 'tpope/vim-rbenv', { 'for': ['ruby'] }
+Plug 'tpope/vim-rails', { 'for': ['ruby'] }
+Plug 'vim-ruby/vim-ruby', { 'for': ['ruby'] }
+Plug 'tpope/vim-endwise', { 'for': ['ruby'] }
+
+" PHP
+Plug 'spf13/PIV', { 'for': 'php' }
+Plug 'beyondwords/vim-twig', { 'for': 'twig' }
+Plug 'jwalton512/vim-blade', { 'for': 'blade' }
+
+" Golang
+Plug 'fatih/vim-go', { 'for': 'go', 'do': ':GoUpdateBinaries' }
+
+" HTML
+Plug 'mattn/emmet-vim', { 'for': ['html'] }
+Plug 'othree/html5.vim', { 'for': ['html'] }
+Plug 'vim-scripts/HTML-AutoCloseTag', { 'for': ['html'] }
+
+" Slim
+Plug 'slim-template/vim-slim', { 'for': ['slim'] }
+
+" Liquid
+Plug 'tpope/vim-liquid', { 'for': ['liquid'] }
+
+" C++
+Plug 'octol/vim-cpp-enhanced-highlight', { 'for': ['c', 'cpp'] }
+
+" DevOps
+Plug 'hashivim/vim-terraform', { 'for': ['terraform'] }
+
+" Yocto
+Plug 'kergoth/vim-bitbake', { 'for': ['bitbake'] }

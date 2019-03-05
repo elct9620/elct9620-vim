@@ -5,22 +5,23 @@
 " contact@frost.tw
 
 " Vundle
-set nocompatible
-filetype off
+" set nocompatible
+" filetype off
 
-set rtp+=$HOME/.vim/bundle/vundle/
-call vundle#rc()
+" Install vim-plug if we don't already have it
+if empty(glob("$HOME/.vim/autoload/plug.vim"))
+    " Ensure all needed directories exist  (Thanks @kapadiamush)
+    execute '!mkdir -p ~/.vim/plugged'
+    execute '!mkdir -p ~/.vim/autoload'
+    " Download the actual plugin manager
+    execute '!curl -fLo ~/.vim/autoload/plug.vim https://raw.github.com/junegunn/vim-plug/master/plug.vim'
+endif
 
-" let Vundle manage Vundle
-Bundle 'gmarik/vundle'
-
-" Load Vundle load bundles
-source $HOME/.vim/Vundle
-
-" Setup Gocode
-" Plugin 'nsf/gocode', {'rtp': 'vim/'}
-
+" Load Plug
+call plug#begin('~/.vim/plugged')
+source $HOME/.vim/Plug
 filetype plugin indent on
+call plug#end()
 
 " hit enter to cancel searched highlight
 noremap <CR> :nohlsearch<CR>
@@ -41,18 +42,17 @@ let g:PIVAutoClose = 0
 " Copy to clipboard
 vmap <C-b> :w !pbcopy<CR>
 
-" Enable Syntax Checker
-let g:syntastic_check_on_open = 1
-let g:syntastic_error_symbol = '✗'
-let g:syntastic_warning_symbol = '⚠'
-" let g:syntastic_auto_jump = 1
-let g:syntastic_auto_loc_list = 1
-
-let g:syntastic_php_phpcs_args = "--report=csv --standard=PSR2"
-
-let g:syntastic_mode_map = { 'mode': 'active',
-                           \ 'active_filetypes': ['ruby', 'php'],
-                           \ 'passive_filetypes': ['html', 'cjsx'] }
-
 " JavaScript Libraries
 let g:used_javascript_libs = "jquery,underscore,react,flux"
+
+" C-H / C-[
+inoremap <BS> <NOP>
+
+" Wakatime
+let g:wakatime_PythonBinary = '/usr/bin/python2.7'
+
+" YCM temporary fix
+" https://github.com/vim/vim/issues/3117
+" if has('python3')
+"   silent! python3 1
+" endif

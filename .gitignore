@@ -3,4 +3,5 @@ bundle/
 !bundle/vundle
 autoload/
 ftplugin/
+plugged/
 .ycm_extra_conf.pyc
