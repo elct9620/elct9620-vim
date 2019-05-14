@@ -33,6 +33,7 @@ set key=
 set synmaxcol=512
 set viminfo=
 set ttyfast
+set autoindent
 
 filetype on
 filetype indent on

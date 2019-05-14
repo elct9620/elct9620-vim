@@ -2,7 +2,7 @@
 autocmd! BufNewFile,BufRead *.scss set filetype=scss
 
 " eRuby
-autocmd! BufNewFile,BufRead *.erb set filetype=eruby.html
+autocmd! BufNewFile,BufRead *.erb set filetype=eruby
 autocmd! BufNewFile,BufRead *.coffee.erb set filetype=eruby.coffee
 autocmd! BufNewFile,BufRead *.js.erb set filetype=eruby.javascript
 
@@ -26,8 +26,8 @@ autocmd! BufNewFile,BufRead nginx.conf set filetype=nginx
 autocmd! BufNewFile,BufRead jquery.*.js set filetype=javascript syntax=jquery
 
 " JavaScript
-autocmd! FileType javascript setlocal expandtab shiftwidth=4 tabstop=4
-autocmd! FileType javascript.* setlocal expandtab shiftwidth=4 tabstop=4
+autocmd! FileType javascript setlocal expandtab shiftwidth=2 tabstop=2
+autocmd! FileType javascript.* setlocal expandtab shiftwidth=2 tabstop=2
 autocmd! FileType vue setlocal expandtab shiftwidth=4 tabstop=4
 
 " PHP
@@ -49,3 +49,6 @@ autocmd! BufNewFile,BufRead Plug set filetype=vim
 " Scala
 autocmd! BufNewFile,BufRead *.scala set filetype=scala
 autocmd! BufNewFile,BufRead *.sbt set filetype=sbt
+
+" Swift
+autocmd! BufNewFile,BufRead *.swift set filetype=swift
