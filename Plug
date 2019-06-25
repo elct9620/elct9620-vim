@@ -44,6 +44,7 @@ Plug 'tpope/vim-rbenv', { 'for': ['ruby'] }
 Plug 'tpope/vim-rails', { 'for': ['ruby'] }
 " Plug 'vim-ruby/vim-ruby', { 'for': ['ruby'] }
 Plug 'tpope/vim-endwise', { 'for': ['ruby'] }
+Plug 'zackhsi/sorbet.vim', { 'for': ['ruby'] }
 
 " PHP
 Plug 'spf13/PIV', { 'for': 'php' }
