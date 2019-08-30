@@ -52,7 +52,7 @@ Plug 'spf13/PIV', { 'for': 'php' }
 " Plug 'jwalton512/vim-blade', { 'for': 'blade' }
 
 " Golang
-" Plug 'fatih/vim-go', { 'for': 'go', 'do': ':GoUpdateBinaries' }
+Plug 'fatih/vim-go', { 'for': 'go', 'do': ':GoUpdateBinaries' }
 
 " HTML
 Plug 'mattn/emmet-vim', { 'for': ['html'] }
