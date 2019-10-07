@@ -19,9 +19,10 @@ Plug 'nathanaelkane/vim-indent-guides'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'pbrisbin/vim-mkdir'
+" Plug 'zxqfl/tabnine-vim', { 'do': 'python3 ./install.py --go-completer --clang-completer --js-completer --ts-completer' }
 
 " TypeScript
-" Plug 'leafgarland/typescript-vim', { 'for': 'typescript' }
+Plug 'leafgarland/typescript-vim', { 'for': 'typescript' }
 
 " Elixir
 " Plug 'elixir-lang/vim-elixir', { 'for': 'elixir' }
