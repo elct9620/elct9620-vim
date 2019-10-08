@@ -22,7 +22,7 @@ Plug 'pbrisbin/vim-mkdir'
 " Plug 'zxqfl/tabnine-vim', { 'do': 'python3 ./install.py --go-completer --clang-completer --js-completer --ts-completer' }
 
 " TypeScript
-Plug 'leafgarland/typescript-vim', { 'for': 'typescript' }
+" Plug 'leafgarland/typescript-vim', { 'for': 'typescript' }
 
 " Elixir
 " Plug 'elixir-lang/vim-elixir', { 'for': 'elixir' }
@@ -33,12 +33,13 @@ Plug 'gorodinskiy/vim-coloresque'
 Plug 'hail2u/vim-css3-syntax'
 
 " JavaScript
-Plug 'jelera/vim-javascript-syntax', { 'for': ['html', 'javascript'] }
-Plug 'othree/javascript-libraries-syntax.vim', { 'for': ['html', 'javascript'] }
-Plug 'mxw/vim-jsx', { 'for': ['javascript.jsx', 'typescript'] }
-Plug 'elzr/vim-json', { 'for': ['html', 'json', 'javascript'] }
+" Plug 'jelera/vim-javascript-syntax', { 'for': ['html', 'javascript'] }
+" Plug 'othree/javascript-libraries-syntax.vim', { 'for': ['html', 'javascript'] }
+" Plug 'pangloss/vim-javascript', { 'for': ['javascript', 'javascript.jsx', 'html'] }
+" Plug 'mxw/vim-jsx', { 'for': ['javascript.jsx', 'typescript'] }
+" Plug 'elzr/vim-json', { 'for': ['html', 'json', 'javascript'] }
 " Plug 'pangloss/vim-javascript', { 'for': ['html', 'javascript'] }
-Plug 'posva/vim-vue', { 'for': ['html', 'javascript', 'vue'] }
+" Plug 'posva/vim-vue', { 'for': ['html', 'javascript', 'vue'] }
 
 " Ruby
 Plug 'tpope/vim-rbenv', { 'for': ['ruby'] }
