@@ -22,31 +22,39 @@ Plug 'pbrisbin/vim-mkdir'
 " Plug 'zxqfl/tabnine-vim', { 'do': 'python3 ./install.py --go-completer --clang-completer --js-completer --ts-completer' }
 
 " TypeScript
-" Plug 'leafgarland/typescript-vim', { 'for': 'typescript' }
+" Plug 'HerringtonDarkholme/yats.vim', { 'for': 'typescript' }
+Plug 'leafgarland/typescript-vim', { 'for': 'typescript' }
+Plug 'maxmellon/vim-jsx-pretty', { 'for': 'typescript' }
 
 " Elixir
-" Plug 'elixir-lang/vim-elixir', { 'for': 'elixir' }
+Plug 'elixir-lang/vim-elixir', { 'for': 'elixir' }
 
 " CSS
 Plug 'gorodinskiy/vim-coloresque'
-" Plug 'cakebaker/scss-syntax.vim', { 'for': 'scss' }
+Plug 'cakebaker/scss-syntax.vim', { 'for': 'scss' }
 Plug 'hail2u/vim-css3-syntax'
 
 " JavaScript
 " Plug 'jelera/vim-javascript-syntax', { 'for': ['html', 'javascript'] }
-" Plug 'othree/javascript-libraries-syntax.vim', { 'for': ['html', 'javascript'] }
-" Plug 'pangloss/vim-javascript', { 'for': ['javascript', 'javascript.jsx', 'html'] }
-" Plug 'mxw/vim-jsx', { 'for': ['javascript.jsx', 'typescript'] }
-" Plug 'elzr/vim-json', { 'for': ['html', 'json', 'javascript'] }
-" Plug 'pangloss/vim-javascript', { 'for': ['html', 'javascript'] }
-" Plug 'posva/vim-vue', { 'for': ['html', 'javascript', 'vue'] }
+Plug 'othree/javascript-libraries-syntax.vim', { 'for': ['html', 'javascript'] }
+Plug 'pangloss/vim-javascript', { 'for': ['javascript', 'html'] }
+Plug 'mxw/vim-jsx', { 'for': ['javascript.jsx', 'typescript'] }
+Plug 'elzr/vim-json', { 'for': ['html', 'json', 'javascript'] }
+Plug 'posva/vim-vue', { 'for': ['html', 'javascript', 'vue'] }
 
 " Ruby
 Plug 'tpope/vim-rbenv', { 'for': ['ruby'] }
 Plug 'tpope/vim-rails', { 'for': ['ruby'] }
-" Plug 'vim-ruby/vim-ruby', { 'for': ['ruby'] }
+Plug 'vim-ruby/vim-ruby', { 'for': ['ruby'] }
 Plug 'tpope/vim-endwise', { 'for': ['ruby'] }
 Plug 'zackhsi/sorbet.vim', { 'for': ['ruby'] }
+
+" YAML
+Plug 'stephpy/vim-yaml', { 'for': ['yaml'] }
+
+" SVG
+Plug 'vim-scripts/svg.vim', { 'for': ['svg'] }
+Plug 'jasonshell/vim-svg-indent', { 'for': ['svg'] }
 
 " PHP
 Plug 'spf13/PIV', { 'for': 'php' }
@@ -58,17 +66,18 @@ Plug 'fatih/vim-go', { 'for': 'go', 'do': ':GoUpdateBinaries' }
 
 " HTML
 Plug 'mattn/emmet-vim', { 'for': ['html'] }
-" Plug 'othree/html5.vim', { 'for': ['html'] }
+Plug 'othree/html5.vim', { 'for': ['html'] }
 Plug 'vim-scripts/HTML-AutoCloseTag', { 'for': ['html'] }
 
 " Slim
-" Plug 'slim-template/vim-slim', { 'for': ['slim'] }
+Plug 'slim-template/vim-slim', { 'for': ['slim'] }
 
 " Liquid
 Plug 'tpope/vim-liquid', { 'for': ['liquid'] }
 
 " C++
-" Plug 'octol/vim-cpp-enhanced-highlight', { 'for': ['c', 'cpp'] }
+Plug 'vim-jp/vim-cpp', { 'for': ['c', 'cpp' ] }
+Plug 'octol/vim-cpp-enhanced-highlight', { 'for': ['c', 'cpp'] }
 
 " DevOps
 " Plug 'hashivim/vim-terraform', { 'for': ['terraform'] }
@@ -79,5 +88,8 @@ Plug 'kergoth/vim-bitbake', { 'for': ['bitbake'] }
 " Swift
 " Plug 'toyamarinyon/vim-swift', { 'for': ['swift'] }
 
+" Lua
+Plug 'tbastos/vim-lua', { 'for': ['lua'] }
+
 " Multi Language Support
-Plug 'sheerun/vim-polyglot'
+" Plug 'sheerun/vim-polyglot'
