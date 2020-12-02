@@ -82,7 +82,7 @@ Plug 'vim-jp/vim-cpp', { 'for': ['c', 'cpp' ] }
 Plug 'octol/vim-cpp-enhanced-highlight', { 'for': ['c', 'cpp'] }
 
 " DevOps
-" Plug 'hashivim/vim-terraform', { 'for': ['terraform'] }
+Plug 'hashivim/vim-terraform', { 'for': ['terraform'] }
 
 " Yocto
 Plug 'kergoth/vim-bitbake', { 'for': ['bitbake'] }
