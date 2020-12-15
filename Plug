@@ -8,7 +8,7 @@ Plug 'scrooloose/nerdtree'
 Plug 'vim-airline/vim-airline'
 Plug 'airblade/vim-gitgutter'
 Plug 'w0rp/ale'
-Plug 'Valloric/YouCompleteMe', { 'do': 'python3 ./install.py --go-completer --clang-completer --js-completer --ts-completer' }
+Plug 'Valloric/YouCompleteMe', { 'do': 'python3 ./install.py --go-completer --clang-completer --js-completer --ts-completer --omnisharp-completer' }
 Plug 'majutsushi/tagbar'
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
@@ -95,6 +95,9 @@ Plug 'tbastos/vim-lua', { 'for': ['lua'] }
 
 " CSV
 Plug 'chrisbra/csv.vim', { 'for': ['csv'] }
+
+" CSharp
+Plug 'OmniSharp/omnisharp-vim', { 'for': ['cs'], 'do': ':OmniSharpInstall' }
 
 " Multi Language Support
 " Plug 'sheerun/vim-polyglot'

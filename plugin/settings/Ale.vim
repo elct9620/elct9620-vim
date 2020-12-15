@@ -6,5 +6,10 @@ let g:ale_fixers = {
       \}
 
 " TODO: Disable ALE when use YCM for c/cpp
-let g:ale_linters = {'c': [], 'cpp': [], 'typescript': []}
+let g:ale_linters = {
+      \  'c': [],
+      \  'cpp': [],
+      \  'typescript': [],
+      \  'cs': ['OmniSharp']
+      \}
 let g:ale_fix_on_save = 1
