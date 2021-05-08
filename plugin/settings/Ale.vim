@@ -3,6 +3,7 @@ let g:ale_sign_warning = '⚠'
 
 let g:ale_fixers = {
       \ 'ruby': ['rubocop'],
+      \ 'python': ['black'],
       \}
 
 " TODO: Disable ALE when use YCM for c/cpp
