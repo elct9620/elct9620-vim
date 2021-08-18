@@ -100,5 +100,8 @@ Plug 'chrisbra/csv.vim', { 'for': ['csv'] }
 " CSharp
 Plug 'OmniSharp/omnisharp-vim', { 'for': ['cs'], 'do': ':OmniSharpInstall' }
 
+" API Blueprint
+Plug 'kylef/apiblueprint.vim'
+
 " Multi Language Support
 " Plug 'sheerun/vim-polyglot'
