@@ -50,3 +50,6 @@ inoremap <BS> <NOP>
 
 " Wakatime
 let g:wakatime_PythonBinary = '/usr/bin/python2.7'
+
+" Flutter
+call FlutterMenu()

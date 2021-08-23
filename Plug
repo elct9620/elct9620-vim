@@ -104,5 +104,9 @@ Plug 'OmniSharp/omnisharp-vim', { 'for': ['cs'], 'do': ':OmniSharpInstall' }
 " API Blueprint
 Plug 'kylef/apiblueprint.vim', { 'for': ['apiblueprint'] }
 
+" Flutter
+Plug 'dart-lang/dart-vim-plugin', { 'for': ['dart'] }
+Plug 'thosakwe/vim-flutter', { 'for': ['dart'] }
+
 " Multi Language Support
 " Plug 'sheerun/vim-polyglot'
