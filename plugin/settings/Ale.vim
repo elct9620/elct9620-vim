@@ -2,13 +2,12 @@ let g:ale_sign_error = '✗'
 let g:ale_sign_warning = '⚠'
 
 let g:ale_fixers = {
-      \ 'ruby': ['rubocop'],
-      \ 'python': ['black'],
-      \}
-let g:ale_fixers = {
-\   'javascript': ['prettier'],
-\   'typescript': ['prettier'],
-\   'css': ['prettier'],
+    \ 'ruby': ['rubocop'],
+    \ 'python': ['black'],
+    \ 'dart': ['dartfmt'],
+    \ 'javascript': ['prettier'],
+    \ 'typescript': ['prettier'],
+    \ 'css': ['prettier'],
 \}
 
 " TODO: Disable ALE when use YCM for c/cpp

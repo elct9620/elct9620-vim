@@ -22,6 +22,9 @@ Plug 'pbrisbin/vim-mkdir'
 " Plug 'zxqfl/tabnine-vim', { 'do': 'python3 ./install.py --go-completer --clang-completer --js-completer --ts-completer' }
 Plug 'dhruvasagar/vim-table-mode'
 
+" Language Server Support
+Plug 'natebosch/vim-lsc'
+
 " TypeScript
 " Plug 'HerringtonDarkholme/yats.vim', { 'for': 'typescript' }
 Plug 'leafgarland/typescript-vim', { 'for': 'typescript' }
@@ -107,6 +110,7 @@ Plug 'kylef/apiblueprint.vim', { 'for': ['apiblueprint'] }
 " Flutter
 Plug 'dart-lang/dart-vim-plugin', { 'for': ['dart'] }
 Plug 'thosakwe/vim-flutter', { 'for': ['dart'] }
+Plug 'natebosch/vim-lsc-dart', { 'for': ['dart'] }
 
 " Multi Language Support
 " Plug 'sheerun/vim-polyglot'
