@@ -112,5 +112,8 @@ Plug 'dart-lang/dart-vim-plugin', { 'for': ['dart'] }
 Plug 'thosakwe/vim-flutter'
 Plug 'natebosch/vim-lsc-dart', { 'for': ['dart'] }
 
+" Rust
+Plug 'rust-lang/rust.vim', { 'for': ['rust'] }
+
 " Multi Language Support
 " Plug 'sheerun/vim-polyglot'
