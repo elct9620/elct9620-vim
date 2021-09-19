@@ -115,5 +115,8 @@ Plug 'natebosch/vim-lsc-dart', { 'for': ['dart'] }
 " Rust
 Plug 'rust-lang/rust.vim', { 'for': ['rust'] }
 
+" Solidity
+Plug 'tomlion/vim-solidity', { 'for': ['sol'] }
+
 " Multi Language Support
 " Plug 'sheerun/vim-polyglot'
