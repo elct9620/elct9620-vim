@@ -14,21 +14,15 @@ Requirements
   * `brew install ctags`
 * Latest version VIM
   * `brew install vim`
-  * `sudo mv /usr/bin/vim /usr/bin/vim.old` (you may want let `vim.old` like `vim73`)
 
 Install
 ---
 
 1. Move to your home directory `cd ~`
-2. Clone my vim settings `git clone https://github.com/elct9620/elct9620-vim.git`
-3. Link directory `ln -s elct9620-vim .vim`
+2. Clone my vim settings `git clone https://github.com/elct9620/elct9620-vim.git .vim`
+3. Install Plugins `vim +PluginInstall +qall`
 4. Link vimrc file `ln -s .vim/vimrc .vimrc`
-5. Install vundle `cd .vim && ./update.sh`
-6. Install relative bundle `vim +BundleInstall +qall`
-7. Install [You Complete Me](https://github.com/Valloric/YouCompleteMe)
-  * `cd ~/.vim/bundle/YouCompleteMe`
-  * `./install.sh --clang-completer`
-8. Install golang relative package
+5. Install golang relative package
   * `go get github.com/bradfitz/goimports`
   * `go get github.com/nsf/gocode`
   * `go get code.google.com/p/rog-go/exp/cmd/godef`
