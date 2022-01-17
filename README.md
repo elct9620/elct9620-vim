@@ -20,13 +20,14 @@ Install
 
 1. Move to your home directory `cd ~`
 2. Clone my vim settings `git clone https://github.com/elct9620/elct9620-vim.git .vim`
-3. Install Plugins `vim +PluginInstall +qall`
-4. Link vimrc file `ln -s .vim/vimrc .vimrc`
-5. Install golang relative package
+3. `brew install cmake` for YouCompleteMe
+4. Install Plugins `vim +PluginInstall +qall`
+5. Link vimrc file `ln -s .vim/vimrc .vimrc`
+6. Install golang relative package
   * `go get github.com/bradfitz/goimports`
   * `go get github.com/nsf/gocode`
   * `go get code.google.com/p/rog-go/exp/cmd/godef`
-8. Everything is ready, free to use it
+7. Everything is ready, free to use it
 
 Usage
 ---
