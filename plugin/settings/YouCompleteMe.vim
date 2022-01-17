@@ -11,15 +11,6 @@ let g:UltiSnipsExpandTrigger="<C-j>"
 let g:UltiSnipsJumpForwardTrigger = '<C-j>'
 let g:UltiSnipsJumpBackwardTrigger = '<C-k>'
 
-" LSP
-let g:ycm_language_server = [
-      \  {
-      \   'name': 'ruby',
-      \   'cmdline': [ expand( '$HOME/.rbenv/shims/solargraph'), 'stdio'],
-      \   'filetypes': ['ruby']
-      \  }
-      \ ]
-
 " Enable omni completion.
 augroup YouCompleteMe
   autocmd!
