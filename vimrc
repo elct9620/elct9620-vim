@@ -1,12 +1,8 @@
 " Aotoki's Vimrc
 "
 " Aotokitsuruya
-" http://frost.tw
-" contact@frost.tw
-
-" Vundle
-" set nocompatible
-" filetype off
+" https://aotoki.me
+" contact@aotoki.me
 
 " Install vim-plug if we don't already have it
 if empty(glob("$HOME/.vim/autoload/plug.vim"))

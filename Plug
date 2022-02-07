@@ -19,14 +19,13 @@ Plug 'nathanaelkane/vim-indent-guides'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'pbrisbin/vim-mkdir'
-" Plug 'zxqfl/tabnine-vim', { 'do': 'python3 ./install.py --go-completer --clang-completer --js-completer --ts-completer' }
 Plug 'dhruvasagar/vim-table-mode'
+Plug 'zivyangll/git-blame.vim'
 
 " Language Server Support
 Plug 'natebosch/vim-lsc'
 
 " TypeScript
-" Plug 'HerringtonDarkholme/yats.vim', { 'for': 'typescript' }
 Plug 'leafgarland/typescript-vim', { 'for': 'typescript' }
 Plug 'maxmellon/vim-jsx-pretty', { 'for': 'typescript' }
 
@@ -39,7 +38,6 @@ Plug 'cakebaker/scss-syntax.vim', { 'for': 'scss' }
 Plug 'hail2u/vim-css3-syntax'
 
 " JavaScript
-" Plug 'jelera/vim-javascript-syntax', { 'for': ['html', 'javascript'] }
 Plug 'othree/javascript-libraries-syntax.vim', { 'for': ['html', 'javascript'] }
 Plug 'pangloss/vim-javascript', { 'for': ['javascript', 'html'] }
 Plug 'mxw/vim-jsx', { 'for': ['javascript.jsx', 'typescript'] }
@@ -65,8 +63,6 @@ Plug 'jasonshell/vim-svg-indent', { 'for': ['svg'] }
 
 " PHP
 Plug 'spf13/PIV', { 'for': 'php' }
-" Plug 'beyondwords/vim-twig', { 'for': 'twig' }
-" Plug 'jwalton512/vim-blade', { 'for': 'blade' }
 
 " Golang
 Plug 'fatih/vim-go', { 'for': 'go', 'do': ':GoUpdateBinaries' }
@@ -89,20 +85,11 @@ Plug 'octol/vim-cpp-enhanced-highlight', { 'for': ['c', 'cpp'] }
 " DevOps
 Plug 'hashivim/vim-hashicorp-tools'
 
-" Yocto
-Plug 'kergoth/vim-bitbake', { 'for': ['bitbake'] }
-
-" Swift
-" Plug 'toyamarinyon/vim-swift', { 'for': ['swift'] }
-
 " Lua
 Plug 'tbastos/vim-lua', { 'for': ['lua'] }
 
 " CSV
 Plug 'chrisbra/csv.vim', { 'for': ['csv'] }
-
-" CSharp
-Plug 'OmniSharp/omnisharp-vim', { 'for': ['cs'], 'do': ':OmniSharpInstall' }
 
 " API Blueprint
 Plug 'kylef/apiblueprint.vim', { 'for': ['apiblueprint'] }
@@ -117,6 +104,3 @@ Plug 'rust-lang/rust.vim', { 'for': ['rust'] }
 
 " Solidity
 Plug 'tomlion/vim-solidity', { 'for': ['sol'] }
-
-" Multi Language Support
-" Plug 'sheerun/vim-polyglot'
