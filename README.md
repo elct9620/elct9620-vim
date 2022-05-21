@@ -1,33 +1,28 @@
-Aotoki's VIM
+Aotokitsuruya's VIM
 ===
 
-This a vim configuration for myself.
-I fork [eddie-vim](https://github.com/kaochenlong/eddie-vim) and use it several months.
-
-But I still hope have a own vim configuration, so I reference [eddie-vim](https://github.com/kaochenlong/eddie-vim) settings, and create a my own version.
-Now, it is very similar [eddie-vim](https://github.com/kaochenlong/eddie-vim) but I will try to customize it more for my coding work.
+The Vim configuration for my development environment.
 
 Requirements
 ---
 
 * ctags
   * `brew install ctags`
-* Latest version VIM
+* Vim
   * `brew install vim`
+* YouCompleteMe
+  * `brew install python3 && brew link python3`
+  * `brew install cmake`
 
 Install
 ---
 
 1. Move to your home directory `cd ~`
 2. Clone my vim settings `git clone https://github.com/elct9620/elct9620-vim.git .vim`
-3. `brew install cmake` for YouCompleteMe
-4. Install Plugins `vim +PluginInstall +qall`
-5. Link vimrc file `ln -s .vim/vimrc .vimrc`
-6. Install golang relative package
-  * `go get github.com/bradfitz/goimports`
-  * `go get github.com/nsf/gocode`
-  * `go get code.google.com/p/rog-go/exp/cmd/godef`
-7. Everything is ready, free to use it
+3. Install Plugins `vim +PluginInstall +qall`
+4. Link vimrc file `ln -s .vim/vimrc .vimrc`
+5. Run `vim +GoInstallBinaries` to seutp Go plugin
+6. Everything is ready, free to use it
 
 Usage
 ---
