@@ -16,7 +16,7 @@ let g:ale_linters = {
       \  'c': [],
       \  'cpp': [],
       \  'cs': ['OmniSharp'],
-      \  'rust': ['rustc']
+      \  'rust': ['cargo']
       \}
 
 let g:ale_fix_on_save = 1
