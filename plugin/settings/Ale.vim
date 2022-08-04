@@ -9,6 +9,7 @@ let g:ale_fixers = {
     \ 'typescript': ['prettier'],
     \ 'css': ['prettier'],
     \ 'rust': ['rustfmt'],
+    \ 'elixir': ['mix_format'],
 \}
 
 " TODO: Disable ALE when use YCM for c/cpp
@@ -16,7 +17,8 @@ let g:ale_linters = {
       \  'c': [],
       \  'cpp': [],
       \  'cs': ['OmniSharp'],
-      \  'rust': ['cargo']
+      \  'rust': ['cargo'],
+      \  'elixir': ['mix'],
       \}
 
 let g:ale_fix_on_save = 1
