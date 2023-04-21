@@ -18,31 +18,3 @@ call plug#begin('~/.vim/plugged')
 source $HOME/.vim/Plug
 filetype plugin indent on
 call plug#end()
-
-" hit enter to cancel searched highlight
-noremap <CR> :nohlsearch<CR>
-
-" select ALL
-map <C-A> ggVG
-
-" Ruby
-let g:rubycomplete_buffer_loading = 1
-
-" JSON
-let g:vim_json_syntax_conceal = 0
-
-" PIV
-let g:DisableAutoPHPFolding = 0
-let g:PIVAutoClose = 0
-
-" Copy to clipboard
-vmap <C-b> :w !pbcopy<CR>
-
-" JavaScript Libraries
-let g:used_javascript_libs = "jquery,underscore,react,flux"
-
-" C-H / C-[
-inoremap <BS> <NOP>
-
-" Wakatime
-let g:wakatime_PythonBinary = '/usr/bin/python2.7'
