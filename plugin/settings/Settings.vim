@@ -19,8 +19,15 @@ set title
 set showmode
 set nobomb
 set laststatus=2
+if has("clipboard")
+  set clipboard=unnamed " copy to the system clipboard
+
+  if has("unnamedplus") " X11 support
+    set clipboard+=unnamedplus
+  endif
+endif
 "if $TMUX == ''
-  set clipboard+=unnamed
+""  set clipboard+=unnamed
 "endif
 set splitright
 set splitbelow
