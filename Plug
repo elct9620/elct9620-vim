@@ -1,13 +1,6 @@
 " Color Scheme
 Plug 'altercation/vim-colors-solarized'
 
-" Completion
-Plug 'prabirshrestha/asyncomplete.vim'
-Plug 'prabirshrestha/vim-lsp'
-Plug 'prabirshrestha/asyncomplete-lsp.vim'
-Plug 'andreypopp/asyncomplete-ale.vim'
-Plug 'mattn/vim-lsp-settings'
-
 " Helper
 Plug 'junegunn/vim-easy-align'
 Plug 'Raimondi/delimitMate'
@@ -16,8 +9,6 @@ Plug 'vim-airline/vim-airline'
 Plug 'airblade/vim-gitgutter'
 Plug 'w0rp/ale'
 Plug 'majutsushi/tagbar'
-Plug 'SirVer/ultisnips'
-Plug 'honza/vim-snippets'
 Plug 'wakatime/vim-wakatime'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'vim-scripts/matchit.zip'
@@ -27,6 +18,13 @@ Plug 'christoomey/vim-tmux-navigator'
 Plug 'pbrisbin/vim-mkdir'
 Plug 'dhruvasagar/vim-table-mode'
 Plug 'zivyangll/git-blame.vim'
+
+" Completion
+Plug 'prabirshrestha/asyncomplete.vim'
+Plug 'prabirshrestha/vim-lsp'
+Plug 'prabirshrestha/asyncomplete-lsp.vim'
+Plug 'andreypopp/asyncomplete-ale.vim'
+Plug 'mattn/vim-lsp-settings'
 
 " TypeScript
 Plug 'leafgarland/typescript-vim', { 'for': 'typescript' }
