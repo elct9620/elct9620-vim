@@ -25,6 +25,7 @@ Plug 'prabirshrestha/vim-lsp'
 Plug 'prabirshrestha/asyncomplete-lsp.vim'
 Plug 'andreypopp/asyncomplete-ale.vim'
 Plug 'mattn/vim-lsp-settings'
+Plug 'rhysd/vim-lsp-ale'
 
 " TypeScript
 Plug 'leafgarland/typescript-vim', { 'for': 'typescript' }
