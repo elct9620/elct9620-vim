@@ -15,6 +15,9 @@ Plug 'christoomey/vim-tmux-navigator'
 Plug 'pbrisbin/vim-mkdir'
 Plug 'dhruvasagar/vim-table-mode'
 
+" AI
+Plug 'github/copilot.vim'
+
 " Utils
 Plug 'wakatime/vim-wakatime'
 
