@@ -3,7 +3,7 @@ let g:ale_sign_warning = '⚠'
 
 let g:ale_fixers = {
     \ 'ruby': ['rubocop'],
-    \ 'python': ['black', 'flake'],
+    \ 'python': ['black', 'autoflake'],
     \ 'dart': ['dartfmt'],
     \ 'javascript': ['prettier'],
     \ 'typescript': ['prettier'],
