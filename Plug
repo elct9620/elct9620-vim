@@ -22,13 +22,13 @@ Plug 'github/copilot.vim'
 Plug 'wakatime/vim-wakatime'
 
 " Syntax & Completion
-Plug 'dense-analysis/ale'
-Plug 'prabirshrestha/asyncomplete.vim'
 Plug 'prabirshrestha/vim-lsp'
+Plug 'mattn/vim-lsp-settings'
+Plug 'dense-analysis/ale'
+Plug 'rhysd/vim-lsp-ale'
+Plug 'prabirshrestha/asyncomplete.vim'
 Plug 'prabirshrestha/asyncomplete-lsp.vim'
 Plug 'andreypopp/asyncomplete-ale.vim'
-Plug 'mattn/vim-lsp-settings'
-Plug 'rhysd/vim-lsp-ale'
 
 " Elixir
 Plug 'elixir-lang/vim-elixir', { 'for': 'elixir' }
