@@ -7,7 +7,7 @@ let g:ale_linters = {
 
 let g:ale_fixers = {
     \ 'ruby': ['rubocop'],
-    \ 'python': ['black', 'autoflake'],
+    \ 'python': ['ruff', 'ruff_format', 'black', 'autoflake'],
     \ 'dart': ['dartfmt'],
     \ 'javascript': ['prettier'],
     \ 'typescript': ['prettier'],
