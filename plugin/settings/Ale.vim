@@ -9,6 +9,7 @@ let g:ale_fixers = {
     \ 'ruby': ['rubocop'],
     \ 'python': ['ruff', 'ruff_format', 'black', 'autoflake'],
     \ 'dart': ['dartfmt'],
+    \ 'json': ['prettier'],
     \ 'javascript': ['prettier'],
     \ 'typescript': ['prettier'],
     \ 'css': ['prettier'],
