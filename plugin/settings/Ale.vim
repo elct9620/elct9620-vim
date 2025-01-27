@@ -12,6 +12,7 @@ let g:ale_fixers = {
     \ 'json': ['prettier'],
     \ 'javascript': ['prettier'],
     \ 'typescript': ['prettier'],
+    \ 'typescriptreact': ['prettier'],
     \ 'css': ['prettier'],
     \ 'rust': ['rustfmt'],
     \ 'elixir': ['mix_format'],
