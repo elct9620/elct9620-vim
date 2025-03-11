@@ -52,3 +52,7 @@ autocmd! BufNewFile,BufRead *.sbt set filetype=sbt
 
 " Swift
 autocmd! BufNewFile,BufRead *.swift set filetype=swift
+
+" Beancount
+autocmd! BufNewFile,BufRead *.beancount set filetype=beancount
+autocmd! BufNewFile,BufRead *.bean set filetype=beancount
