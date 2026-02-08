@@ -20,15 +20,14 @@ set showmode
 set nobomb
 set laststatus=2
 if has("clipboard")
-  set clipboard=unnamed " copy to the system clipboard
-
-  if has("unnamedplus") " X11 support
-    set clipboard+=unnamedplus
+  if has("mac") || has("macunix") || has("gui_macvim")
+    set clipboard=unnamed
+  elseif has("unnamedplus")
+    set clipboard=unnamedplus
+  else
+    set clipboard=unnamed
   endif
 endif
-"if $TMUX == ''
-""  set clipboard+=unnamed
-"endif
 set splitright
 set splitbelow
 set scrolloff=5
@@ -49,12 +48,14 @@ filetype plugin on
 syntax on
 set hlsearch
 set incsearch
-set t_Co=256
+
+if has('termguicolors')
+  set termguicolors
+endif
+set background=dark
 try
-  let g:solarized_termcolors=256
-  syntax enable
-  set background=dark
-  colorscheme solarized
+  let g:solarized_termtrans=1
+  colorscheme solarized8
 catch
 endtry
 
