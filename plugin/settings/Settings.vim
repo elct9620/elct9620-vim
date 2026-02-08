@@ -99,6 +99,9 @@ autocmd WinEnter * setlocal cursorline
 autocmd WinLeave * setlocal nocursorline
 
 autocmd BufWritePre * :%s/\s\+$//e
+autocmd TextYankPost * if v:event.operator is 'y' || v:event.operator is 'd'
+          \ | execute 'OSCYankRegister "'
+          \ | endif
 
 map <Leader><Leader> <Leader>c<space>
 

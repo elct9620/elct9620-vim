@@ -1,6 +1,9 @@
 " Color Scheme
 Plug 'lifepillar/vim-solarized8'
 
+" Clipboard
+Plug 'ojroques/vim-oscyank', { 'branch': 'main' }
+
 " Helper
 Plug 'junegunn/vim-easy-align'
 Plug 'Raimondi/delimitMate'
