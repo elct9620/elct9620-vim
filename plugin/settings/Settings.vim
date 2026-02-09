@@ -55,10 +55,11 @@ endif
 set background=dark
 try
   let g:solarized_termtrans=1
-  colorscheme solarized8
+  colorscheme solarized8_flat
 catch
 endtry
 
+set nospell
 set nobackup
 set noswapfile
 set nowritebackup
